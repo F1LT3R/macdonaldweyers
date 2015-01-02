@@ -1,0 +1,733 @@
+<head><meta http-equiv="Content-type" content="text/html; charset=utf-8"><style>body {
+  width: 45em;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+body .markdown-body {
+  padding: 30px;
+}
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+.markdown-body a {
+  background: transparent;
+}
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+.markdown-body strong {
+  font-weight: bold;
+}
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.markdown-body img {
+  border: 0;
+}
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+.markdown-body pre {
+  overflow: auto;
+}
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+.markdown-body input {
+  line-height: normal;
+}
+.markdown-body input[type="checkbox"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.markdown-body input {
+  font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+.markdown-body h1 {
+  font-size: 30px;
+}
+.markdown-body h2 {
+  font-size: 21px;
+}
+.markdown-body h3 {
+  font-size: 16px;
+}
+.markdown-body h4 {
+  font-size: 14px;
+}
+.markdown-body h5 {
+  font-size: 12px;
+}
+.markdown-body h6 {
+  font-size: 11px;
+}
+.markdown-body blockquote {
+  margin: 0;
+}
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+.markdown-body dd {
+  margin-left: 0;
+}
+.markdown-body code {
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.markdown-body .octicon {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+.markdown-body > *:first-child {
+  margin-top: 0 !important;
+}
+.markdown-body > *:last-child {
+  margin-bottom: 0 !important;
+}
+.markdown-body .anchor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+.markdown-body .anchor:focus {
+  outline: none;
+}
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  display: inline-block;
+}
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+.markdown-body h5 {
+  font-size: 1em;
+}
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.markdown-body li > p {
+  margin-top: 16px;
+}
+.markdown-body dl {
+  padding: 0;
+}
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+.markdown-body blockquote > :first-child {
+  margin-top: 0;
+}
+.markdown-body blockquote > :last-child {
+  margin-bottom: 0;
+}
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+.markdown-body table th {
+  font-weight: bold;
+}
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+}
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+.markdown-body pre > code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+.markdown-body pre {
+  word-wrap: normal;
+}
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+.markdown-body .pl-c {
+  color: #969896;
+}
+.markdown-body .pl-c1,
+.markdown-body .pl-mdh,
+.markdown-body .pl-mm,
+.markdown-body .pl-mp,
+.markdown-body .pl-mr,
+.markdown-body .pl-s1 .pl-v,
+.markdown-body .pl-s3,
+.markdown-body .pl-sc,
+.markdown-body .pl-sv {
+  color: #0086b3;
+}
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+.markdown-body .pl-s1 .pl-s2,
+.markdown-body .pl-smi,
+.markdown-body .pl-smp,
+.markdown-body .pl-stj,
+.markdown-body .pl-vo,
+.markdown-body .pl-vpf {
+  color: #333;
+}
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+.markdown-body .pl-k,
+.markdown-body .pl-s,
+.markdown-body .pl-st {
+  color: #a71d5d;
+}
+.markdown-body .pl-pds,
+.markdown-body .pl-s1,
+.markdown-body .pl-s1 .pl-pse .pl-s2,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-src,
+.markdown-body .pl-v {
+  color: #df5000;
+}
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+.markdown-body .pl-mq {
+  color: #008080;
+}
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+.markdown-body .pl-md,
+.markdown-body .pl-mdhf {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+.markdown-body .pl-mdht,
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #000;
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+}
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+.markdown-body .task-list-item + .task-list-item {
+  margin-top: 3px;
+}
+.markdown-body .task-list-item input {
+  float: left;
+  margin: 0.3em 0 0.25em -1.6em;
+  vertical-align: middle;
+}
+.file {
+  list-style-image: url('https://cdn4.iconfinder.com/data/icons/linecon/512/file-16.png');
+}
+.dir {
+  list-style-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/699086-icon-94-folder-16.png');
+}
+.md {
+  list-style-image: url('https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-16.png');
+}
+</style></head><body><article><h1 id="wedding-ceremony">Wedding Ceremony</h1>
+<h2 id="contents">Contents</h2>
+<ol>
+<li><a href=".html">Prelude</a></li>
+<li><a href=".html">Processional</a></li>
+<li><a href=".html">Service of Approach</a><ul>
+<li>3.1. <a href=".html">Call to Worship</a></li>
+<li>3.2. <a href=".html">Hymn or Solo</a></li>
+<li>3.3. <a href=".html">Introduction</a></li>
+</ul>
+</li>
+<li><a href=".html">Service of God's Word</a><ul>
+<li>4.1. <a href=".html">Scripture Readings</a></li>
+<li>4.2. <a href=".html">Wedding Homily</a></li>
+<li>4.3. <a href=".html">Prayer for The Couple</a></li>
+</ul>
+</li>
+<li><a href=".html">The Marriage Liturgy</a><ul>
+<li>5.1. <a href=".html">Declaration of Consent</a></li>
+<li>5.2. <a href=".html">Blessing of Family and Friends</a></li>
+<li>5.3. <a href=".html">Exchange of Vows</a></li>
+<li>5.4. <a href=".html">Exchange of Rings</a></li>
+<li>5.5. <a href=".html">Communion &amp; Musical Solo</a></li>
+<li>5.6. <a href=".html">Pronouncement</a></li>
+</ul>
+</li>
+<li><a href=".html">Service of Response</a><ul>
+<li>6.1 <a href=".html">Marriage Blessing</a></li>
+<li>6.2 <a href=".html">Hymn or Solo</a></li>
+<li>6.3 <a href=".html">Benediction</a></li>
+</ul>
+</li>
+<li><a href=".html">Recessional</a></li>
+</ol>
+<h2 id="1-prelude">1. Prelude</h2>
+<ul>
+<li>Ushers greet people at the door and point them upstairs.</li>
+<li>Chris Battoo &amp; "x" to seat people.</li>
+<li>Music starts playing.</li>
+</ul>
+<p><strong>Music options:</strong></p>
+<p><a href="https://www.youtube.html"><img src="https://i.ytimg.com/vi/NBrCa6GXzrU/default.jpg" alt="J. S. Bach: Jesu, Joy of Man's Desiring (from Cantata 147)"></a>
+<a href="https://www.youtube.html">J. S. Bach: Jesu, Joy of Man's Desiring (from Cantata 147)</a></p>
+<h2 id="2-processional">2. Processional</h2>
+<ul>
+<li>Al, Tim walk down isle.</li>
+<li>Amanda's dad will wait in the back.</li>
+<li>Karen will walk down before Amanda.</li>
+<li>Music: Pachelbel's Cannon in D begins play</li>
+<li>Amanda walks down the isle.</li>
+</ul>
+<p><a href="https://www.youtube.html"><img src="https://i.ytimg.com/vi/jXC9tuumjiA/default.jpg" alt="Pachelbel's Cannon in D - Played on Guitar"></a>
+<a href="https://www.youtube.html">Pachelbel's Cannon in D - Played on Guitar</a></p>
+<h2 id="3-service-of-approach">3. Service of Approach</h2>
+<h3 id="3-1-call-to-worship">3.1. Call to Worship</h3>
+<h3 id="3-2-hymn-or-solo">3.2. Hymn or Solo</h3>
+<h3 id="3-3-introduction">3.3. Introduction</h3>
+<p><strong>Minister Adam Herndon:</strong></p>
+<p>Dearly beloved, we are gathered together here in the sight of God and in the presence of these witnesses, to join this man and this woman in holy matrimony.</p>
+<p>Marriage is an honorable estate, instituted by God and signifying unto us the mystical union, which exists between Christ and his church; It is therefore not to be entered into unadvisedly, but reverently, discreetly, and in the fear of God. Into this holy estate these two persons come now to be joined. </p>
+<p>Alistair MacDonald and Amanda Weyers, I charge you both, as you stand here in the presence of God, to remember that faith in God, together with love and  loyalty alone will avail as the foundation of a happy home. If the solemn vows  which you are about to make are kept inviolate, and if you consistently endeavor to do the will of your Heavenly Father (and not just please yourselves) then your life will be full of joy, and the home which you are establishing today will abide in peace. No other human ties are more tender, no other vows more sacred than those, which you are about to assume.</p>
+<p>Please be seated.</p>
+<h2 id="4-service-of-god-s-word">4. Service of God's Word</h2>
+<h3 id="4-1-scripture-readings">4.1. Scripture Readings</h3>
+<p><strong>Read by: "Karen Cunningham?"</strong></p>
+<blockquote>
+<p>"Let love and faithfulness never leave you; bind them around your neck, write them on the tablet of your heart. Then you will win favor and a good name in the sight of God and men. Trust in the Lord with all Your heart and lean not on your own understanding; in all your ways acknowledge him and he will make your paths straight." 
+<strong>— <em>Proverbs 3:3-6</em></strong></p>
+</blockquote>
+<p><strong>Read by: "Timothy Larson?"</strong></p>
+<blockquote>
+<p>"As a prisoner for the Lord, then, I urge you to live a life worthy of the calling you have received. Be completely humble and gentle; be patient, bearing with one another in love. Make every effort to keep the unity of the Spirit through the bond of peace. There is one body an done Spirit—just as you were called to one hope when you were called—one Lord, one faith, one baptism; one God and father of all, who is over all and through all and in all."
+<strong>— <em>Ephesians 4:1-6</em></strong></p>
+</blockquote>
+<p><strong>Read by: "Third Reader?"</strong></p>
+<blockquote>
+<p>"If you have any encouragement from being united with Christ, if any comfort from his love, if any fellowship with his spirit, if any tenderness and compassion, the make my joy complete by being like minded, having the same love, being one in spirit and purpose. Do nothing out of selfish ambition or vain conceit, but in humility consider others better than yourselves. Each of you should look not only to your own interests, but also of the interest of others. Your attitude should be the same as that of Christ Jesus."
+<strong>— <em>Philippians 2:3-5</em></strong></p>
+</blockquote>
+<h3 id="4-2-wedding-homily">4.2. Wedding Homily</h3>
+<p>Adam Herndon will give a short 5-10 minute wedding mediatation.</p>
+<h3 id="4-3-prayer-for-the-couple">4.3. Prayer for The Couple</h3>
+<p>Adam Herndon will pray for the couple.</p>
+<h3 id="4-4-solo-optional-">4.4. Solo (optional)</h3>
+<h2 id="5-the-marriage-liturgy">5. The Marriage Liturgy</h2>
+<h3 id="5-1-declaration-of-consent">5.1. Declaration of Consent</h3>
+<p><strong>Minister Adam Herndon:</strong></p>
+<p>"Alistair, will you have Amanda to be your wife; to live  to live together in the covenant of marriage? Will you love her, honor her, comfort and keep her, and forsaking all others remain true to her as long as you both shall live? If so you may answer, 'I will.'"</p>
+<p><strong>Alistair:</strong>
+"I will." :)</p>
+<p><strong>Minister Adam Herndon:</strong></p>
+<p>"Amanda, will you have this man to be your husband; to live together in the covenant of marriage? Will you love him, honor him, comfort and keep him, and forsaking all others remain true to him as long as you both shall live? If so you may answer, 'I will.'"</p>
+<p><strong>Amanda:</strong></p>
+<p>"I will." :)</p>
+<h3 id="5-2-blessing-of-family-and-friends">5.2. Blessing of Family and Friends</h3>
+<p><strong>Minister Adam Herndon:</strong></p>
+<p>"Who gives this woman to be married to this man and in so doing adds their blessing to this marriage?""</p>
+<p><strong>Calvin Weyers:</strong></p>
+<p>"Her mother and I do."</p>
+<p><strong>Minister Adam Herndon:</strong></p>
+<p>"Brothers and sisters, would you please stand. As those invited to witness this marriage, you who are close by family tie or friendship, do you add your blessing to this marriage, pledging that as you may have opportunity, you will always seek to support this marriage with your counsel, with your actions, and with your prayers in the earnest desire that Alistair and Amanda may faithfully keep the vows of life‑long love which they are about to make? If so, please say, 'we do.'"</p>
+<p><strong>Congregation:</strong></p>
+<p>"We do."</p>
+<h3 id="5-3-exchange-of-vows">5.3. Exchange of Vows</h3>
+<p><strong>Minister Adam Herndon:</strong></p>
+<p>"Alistair and Amanda, please join hands and declare your vows to eachother."</p>
+<p><strong>Alistair:</strong></p>
+<p>"I, Alistair, take you, Amanda, to be my wedded wife, and do promise and covenant before God and these witnesses to be your loving and faithful husband, in plenty and in want, in joy and in sorrow; in sickness and in health; until we are parted by death.</p>
+<blockquote>
+<p>"Scripture read by Alistair"
+<strong>— <em>Bible Verse Reference</em></strong></p>
+</blockquote>
+<p><strong>Amanda:</strong></p>
+<p>"I, Amanda, take you, Alistair, to be my wedded husband, and do promise and covenant before God and these witnesses to be your loving and faithful wife, in plenty and in want, in joy and in sorrow; in sickness and in health; until we are parted by death."</p>
+<blockquote>
+<p>"Where you go I will go, and where you stay I will stay. Your people will be my people and your God, my God."
+<strong>— <em>Ruth 1:16</em></strong></p>
+</blockquote>
+<h3 id="5-4-exchange-of-rings">5.4. Exchange of Rings</h3>
+<p><strong>Minister Adam Herndon:</strong></p>
+<p>"Karen, Tim, do you have the rings?"</p>
+<p>(Karen and Tim indicate that they have the rings.)</p>
+<p>"Bless, Oh Lord, these rings to be symbols of the vows by which this man and this woman have bound themselves to each other, through Jesus Christ our Lord. Amen."</p>
+<p>"Alistair, as you place this ring on Amanda's finger, repeat after me:"</p>
+<p>"Amanda, I give you this ring, as a symbol of my vow, and with all that I am, and all that I have, I honor you, In the name of the Father, and of the Son, and of the Holy Spirit. Amen."</p>
+<p><strong>Alistair:</strong></p>
+<p>"Amanda, I give you this ring, as a symbol of my vow, and with all that I am, and all that I have, I honor you, In the name of the Father, and of the Son, and of the Holy Spirit. Amen."</p>
+<p><strong>Minister Adam Herndon:</strong></p>
+<p>"Amanda, as you place this ring on Alistair's finger, repeat after me:"</p>
+<p>"Alistair, I give you this ring, as a symbol of my vow, and with all that I am, and all that I have, I honor you, In the name of the Father, and of the Son, and of the Holy Spirit. Amen."</p>
+<p><strong>Amanda:</strong></p>
+<p>"Alistair, I give you this ring, as a symbol of my vow, and with all that I am, and all that I have, I honor you, In the name of the Father, and of the Son, and of the Holy Spirit. Amen."</p>
+<h3 id="5-5-communion">5.5. Communion</h3>
+<ul>
+<li>Minister Adam Herndon performs the communion liturgy.</li>
+<li>Music begings playing while congregation stand.</li>
+<li>Alistair and Amanda hold the cup and plate while the congregation share in communion.</li>
+</ul>
+<h3 id="5-6-pronouncement">5.6. Pronouncement</h3>
+<p><strong>Minister Adam Herndon:</strong></p>
+<p>"Alistair and Amanda, upon the taking of your vows and the giving and receiving of rings, in the presence of this company, and by the authority committed unto me as a minister of the Gospel, I declare that you are now husband and wife: in the Name of the Father and of the Son and of the Holy Ghost. Amen."</p>
+<p>"What God has joined together, let no man put asunder."</p>
+<p>"You may kiss the bride."</p>
+<p>[Kissing] :O!</p>
+<h2 id="6-service-of-response">6. Service of Response</h2>
+<h3 id="6-1-marriage-blessing">6.1. Marriage Blessing</h3>
+<p><strong>Minister Adam Herndon:</strong></p>
+<p>"Let us close in a word of prayer for this couple."</p>
+<p>Our gracious God, who alone knows the future, we now entrust Alistair and Amanda and all their hopes and dreams to you. Give them strength through all the stresses of life.  Give them wisdom and devotion in their life together, that each may be to the other a strength in need, a counselor in perplexity, a comfort in sorrow, a companion in joy, and a partner in love. </p>
+<p>Give them grace, when they hurt each other, to recognize and acknowledge their fault, and to seek each other’s forgiveness and Yours. Bestow on them, if it is your will, the gift and heritage of children, and the grace to bring them up to know you, to love you, and to serve you.</p>
+<p>We ask you blessing upon their families who have been linked together by this marriage. May love, understanding, and happiness flow freely between them. We pray the you would grant all married persons who have witnessed these vows may find their own lives strengthened and their loyalties confirmed.</p>
+<p>O loving God, receive us and our prayers on the merits of our Lord Jesus Christ, who lives and reigns with You and the Holy Spirit, one God, now and forever. Amen.</p>
+<p>And now in the words that Jesus taught us, we are bold to pray:</p>
+<blockquote>
+<p>"Our Father, who art in heaven, Hallowed be thy Name. Thy kingdom come. Thy will be done in earth, as it is in heaven. Give us this day our daily bread. And forgive us our trespasses, As we forgive them that trespass against us. And lead us not into temptation; But deliver us from evil one. Amen."
+<strong>— Bible verse reference</strong></p>
+</blockquote>
+<h3 id="6-2-hymn-or-solo-">6.2. (Hymn or Solo)</h3>
+<p>Do we want to do this?</p>
+<h3 id="6-3-benediction">6.3. Benediction</h3>
+<blockquote>
+<p>"You shall go out in joy, and be led forth in peace; the
+mountains and the hills before you shall break forth into singing, and all the trees of the field shall clap their hands." 
+<strong>— Isaiah 55:12</strong></p>
+</blockquote>
+<p>"The Lord bless you and keep you; The Lord make his face to shine upon you, and be gracious unto you; The Lord lift up His countenance upon you, and give you peace, Now and forevermore. Amen."</p>
+<h2 id="7-recessional">7. Recessional</h2>
+<ul>
+<li>Music plays us out.</li>
+</ul>
+<h1 id="notes">Notes</h1>
+<ul>
+<li>[ ] Music<ul>
+<li>[X] Contact Christian Wolfe</li>
+<li>[ ] Matthew Bosch-Willet?</li>
+<li>[ ] Choose peices<ul>
+<li>[ ] Prelude</li>
+<li>[ ] Solo ?</li>
+<li>[ ] Communion Music</li>
+<li>[ ] Recessional Music</li>
+<li>[ ] Do we want Hymn or solo 6.2?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>[ ] Update people re: Video Stream</li>
+<li>[ ] Readings<ul>
+<li>[ ] Ask Tim to do a reading?</li>
+<li>[ ] Ask Karen Cunningham?</li>
+<li>[ ] Third Reader</li>
+</ul>
+</li>
+<li>[X] Check with Rich E. whether video can be recorded from the streams.<ul>
+<li>[ ] Confirm someone will be recording that day.</li>
+</ul>
+</li>
+</ul>
+</article><script class="jsdom" src="http://code.jquery.com/jquery.js"></script></body><script class="jsdom" src="http://code.jquery.com/jquery.js"></script>
