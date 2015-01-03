@@ -2,31 +2,30 @@
 
 ##Contents
 
- 1. [Prelude](#Prelude)
- 2. [Processional](#Processional)
- 3. [Service of Approach](#Service_of_Approach)
-    - 3.1. [Call to Worship](#Call_to_Worship)
-    - 3.2. [Hymn or Solo](#Hymn_or_Solo)
-    - 3.3. [Introduction](#Introduction)
- 4. [Service of God's Word](#Service_of_Gods_Word)
-    - 4.1. [Scripture Readings](#Scripture_Readings)
-    - 4.2. [Wedding Homily](#Wedding_Homily)
-    - 4.3. [Prayer for The Couple](#Prayer_for_The_Couple)
- 5. [The Marriage Liturgy](#The_Marriage_Liturgy)
-    - 5.1. [Declaration of Consent](#Declaration_of_Consent)
-    - 5.2. [Blessing of Family and Friends](#Blessing_of_Family_and_Friends)
-    - 5.3. [Exchange of Vows](#Exchange_of_Vows)
-    - 5.4. [Exchange of Rings](#Exchange_of_Rings)
-    - 5.5. [Solo_Optional](#Solo_Optional)
-    - 5.6. [Communion & Musical Solo](#Communion)
-    - 5.7. [Pronouncement](#Pronouncement)
- 6. [Service of Response](#Service_of_Response)
-    - 6.1 [Marriage Blessing](#Marriage_Blessing)
-    - 6.2 [Hymn or Solo](#Hymn_or_Solo)
-    - 6.3 [Benediction](#Benediction)
- 7. [Recessional](#Recessional)
+ 1. [Prelude](#1-prelude)
+ 2. [Processional](#2-processional)
+ 3. [Service of Approach](#3-service-of-approach)
+    - 3.1. [Call to Worship](#31-call-to-worship)
+    - 3.2. [Hymn or Solo](#32-hymn-or-solo)
+    - 3.3. [Introduction](#33-introduction)
+ 4. [Service of God's Word](#4-service-of-gods-word)
+    - 4.1. [Scripture Readings](#41-scripture-readings)
+    - 4.2. [Wedding Homily](#42-wedding-homily)
+    - 4.3. [Prayer for The Couple](#43-prayer-for-the-couple)
+ 5. [The Marriage Liturgy](#5-the-marriage-liturgy)
+    - 5.1. [Declaration of Consent](#51-declaration-of-consent)
+    - 5.2. [Blessing of Family and Friends](#52-blessing-of-family-and-friends)
+    - 5.3. [Exchange of Vows](#53-exchange-of-vows)
+    - 5.4. [Exchange of Rings](#54-exchange-of-rings)
+    - 5.5. [Communion & Musical Solo](#55-communion)
+    - 5.6. [Pronouncement](#56-pronouncement)
+ 6. [Service of Response](#6-service-of-response)
+    - 6.1 [Marriage Blessing](#61-marriage-blessing)
+    - 6.2 [Hymn or Solo](#62-hymn-or-solo)
+    - 6.3 [Benediction](#63-benediction)
+ 7. [Recessional](#7-recessional)
 
-##<a name="Prelude">1. Prelude</a>
+##1. Prelude
 
  - Ushers greet people at the door and point them upstairs.
  - Chris Battoo & "x" to seat people.
@@ -39,7 +38,7 @@
 
 
 
-##<a name="Processional">2. Processional</a>
+##2. Processional
 
 - Al, Tim walk down isle.
 - Amanda's dad will wait in the back.
@@ -50,12 +49,12 @@
 [![Pachelbel's Cannon in D - Played on Guitar](https://i.ytimg.com/vi/jXC9tuumjiA/default.jpg)](https://www.youtube.com/watch?v=jXC9tuumjiA)
 [Pachelbel's Cannon in D - Played on Guitar](https://www.youtube.com/watch?v=jXC9tuumjiA)
 
-##<a name="Service_of_Approach">3. Service of Approach</a>
+##3. Service of Approach
 
-###<a name="Call_to_Worship">3.1. Call to Worship</a>
-###<a name="Hymn_or_Solo">3.2. Hymn or Solo</a>
+###3.1. Call to Worship
+###3.2. Hymn or Solo
 
-###<a name="Introduction">3.3. Introduction</a>
+###3.3. Introduction
 
 **Minister Adam Herndon:**
 
@@ -67,9 +66,9 @@ Alistair MacDonald and Amanda Weyers, I charge you both, as you stand here in th
 
 Please be seated.
 
-##<a name="Service_of_Gods_Word">4. Service of God's Word</a>
+##4. Service of God's Word
 
-###<a name="Scripture_Readings">4.1. Scripture Readings</a>
+###4.1. Scripture Readings
 
 **Read by: "Karen Cunningham?"**
 
@@ -87,19 +86,19 @@ Please be seated.
 > **&mdash; _Philippians 2:3-5_**
 
 
-###<a name="Wedding_Homily">4.2. Wedding Homily</a>
+###4.2. Wedding Homily
 
 Adam Herndon will give a short 5-10 minute wedding mediatation.
 
-###<a name="Prayer_for_The_Couple">4.3. Prayer for The Couple</a>
+###4.3. Prayer for The Couple
 
 Adam Herndon will pray for the couple.
 
-###<a name="Solo_Optional">4.4. Solo (optional)</a>
+###4.4. Solo (optional)
 
-##<a name="The_Marriage_Liturgy">5. The Marriage Liturgy</a>
+##5. The Marriage Liturgy
 
-###<a name="Declaration_of_Consent">5.1. Declaration of Consent</a>
+###5.1. Declaration of Consent
 
 **Minister Adam Herndon:**
 
@@ -116,7 +115,7 @@ Adam Herndon will pray for the couple.
 
 "I will." :)
 
-###<a name="Blessing_of_Family_and_Friends">5.2. Blessing of Family and Friends</a>
+###5.2. Blessing of Family and Friends
 
 **Minister Adam Herndon:**
 
@@ -134,7 +133,7 @@ Adam Herndon will pray for the couple.
 
 "We do."
 
-###<a name="Exchange_of_Vows">5.3. Exchange of Vows</a>
+###5.3. Exchange of Vows
 
 **Minister Adam Herndon:**
 
@@ -154,7 +153,7 @@ Adam Herndon will pray for the couple.
 > "Where you go I will go, and where you stay I will stay. Your people will be my people and your God, my God."
 > **&mdash; _Ruth 1:16_**
 
-###<a name="Exchange_of_Rings">5.4. Exchange of Rings</a>
+###5.4. Exchange of Rings
 
 **Minister Adam Herndon:**
 
@@ -182,13 +181,13 @@ Adam Herndon will pray for the couple.
 
 "Alistair, I give you this ring, as a symbol of my vow, and with all that I am, and all that I have, I honor you, In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
 
-###<a name="Communion">5.5. Communion</a>
+###5.5. Communion
 
  - Minister Adam Herndon performs the communion liturgy.
  - Music begings playing while congregation stand.
  - Alistair and Amanda hold the cup and plate while the congregation share in communion.
 
-###<a name="Pronouncement">5.6. Pronouncement</a>
+###5.6. Pronouncement
 
 **Minister Adam Herndon:**
 
@@ -200,9 +199,9 @@ Adam Herndon will pray for the couple.
 
 [Kissing] :O!
 
-##<a name="Service_of_Response">6. Service of Response</a>
+##6. Service of Response
 
-###<a name="Marriage_Blessing">6.1. Marriage Blessing</a>
+###6.1. Marriage Blessing
 
 **Minister Adam Herndon:**
 
@@ -222,11 +221,11 @@ And now in the words that Jesus taught us, we are bold to pray:
 > **&mdash; Bible verse reference**
 
 
-######<a name="Hymn_or_Solo">6.2. (Hymn or Solo)</a>
+###6.2. (Hymn or Solo)
 
 Do we want to do this?
 
-###<a name="Benediction">6.3. Benediction</a>
+###6.3. Benediction
 
 > "You shall go out in joy, and be led forth in peace; the
 mountains and the hills before you shall break forth into singing, and all the trees of the field shall clap their hands." 
@@ -235,7 +234,7 @@ mountains and the hills before you shall break forth into singing, and all the t
 "The Lord bless you and keep you; The Lord make his face to shine upon you, and be gracious unto you; The Lord lift up His countenance upon you, and give you peace, Now and forevermore. Amen."
 
 
-##<a name="Recessional">7. Recessional</a>
+##7. Recessional
 
  - Music plays us out.
 
@@ -243,7 +242,7 @@ mountains and the hills before you shall break forth into singing, and all the t
 
  - [ ] Music
     - [X] Contact Christian Wolfe
-    - [ ] Matthew BW?
+    - [ ] Matthew Bosch-Willet?
     - [ ] Choose peices
         - [ ] Prelude
         - [ ] Solo ?
@@ -255,5 +254,6 @@ mountains and the hills before you shall break forth into singing, and all the t
     - [ ] Ask Tim to do a reading?
     - [ ] Ask Karen Cunningham?
     - [ ] Third Reader
- - [ ] Check with Rich E. whether video is recorded from the streams.
+ - [X] Check with Rich E. whether video can be recorded from the streams.
+     + [ ] Confirm someone will be recording that day.
 
