@@ -1,10 +1,10 @@
 
-##The marriage of
-#AMANDA MAY WEYERS <span>and</span> ALISTAIR GRAHAM MACDONALD
+##<center>The marriage of</center>
+#<center>AMANDA MAY WEYERS <span>and</span> ALISTAIR GRAHAM MACDONALD</center>
 
-[About Us](about-us) &nbsp; [Celebrations](celebrations)
+<center>[About Us](about-us) &nbsp; [Celebrations](celebrations)</center>
 
-###Upcoming Wedding Broadcast
+###<center>Upcoming Wedding Broadcast</center>
 
-Our wedding will be broadcast live on the Park Street Church website. Click on the link below to celebrate with us through magic of technology: 
-[parkstreet.org/live](http://parkstreet.org/live)
+<center>Our wedding will be broadcast live on the Park Street Church website. Click on the link below to celebrate with us through magic of technology: 
+[parkstreet.org/live](http://parkstreet.org/live)</center>
