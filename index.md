@@ -2,7 +2,7 @@
 ##The wedding of
 #AMANDA MAY WEYERS <span>and</span> ALISTAIR GRAHAM MACDONALD
 
-[About Us](about-us) &nbsp; [Hotels](hotels) &nbsp; [Directions](directions) &nbsp; [Reception](reception)
+[About Us](about-us) &nbsp; [Dedication](dedication)
 
 ###Watch Live
 
