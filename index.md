@@ -1,4 +1,4 @@
-<link href="http://macdonaldweyers.com/favicon.png" rel="shortcut icon" type="image/x-icon">
+<link href="http://macdonaldweyers.com/favicon.ico" rel="shortcut icon" type="image/x-icon"></link>
 
 ##<center>The marriage of</center>
 #<center>AMANDA MAY WEYERS <span>and</span> ALISTAIR GRAHAM MACDONALD</center>
