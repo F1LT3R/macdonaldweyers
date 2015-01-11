@@ -72,6 +72,23 @@ h3 {
   width: 700px;
   margin: 20px auto 0;
 }
+@-webkit-keyframes pulse {
+  from {
+    color: #749a02;
+  }
+  50% {
+    color: #91bd09;
+  }
+  to {
+    color: #749a02;
+  }
+}
+.attention {
+  font-style: italic;
+  -webkit-animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
 </style></head><body><article><h2 id="about-us">About Us</h2>
 <p><img src="alistair-and-amanda.jpg" alt="Amanda and Alistair in Boston Public Garden"></p>
 <h1 id="alistair-graham-macdonald">ALISTAIR GRAHAM MACDONALD</h1>
