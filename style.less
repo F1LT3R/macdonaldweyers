@@ -89,6 +89,7 @@ h1 span{
 }
 h3{
   margin-top:50px;
+  margin-bottom:0;
 }
 
 
@@ -104,15 +105,17 @@ h3{
 
 
 @-webkit-keyframes pulse {
-  from { color: #749a02; }
-  50%  { color: #91bd09; }
-  to   { color: #749a02; }
+  from { color: #749a02; text-shadow: 0px 1px 3px rgba(0,0,0,0) }
+  50%  { color: #91bd09; text-shadow: 0px 1px 30px rgba(255,255,0,1) }
+  to   { color: #749a02; text-shadow: 0px 1px 3px rgba(0,0,0,0) }
 }
 
 
 .attention {
   font-style:italic;
   -webkit-animation-name: pulse;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
 }
+
+
