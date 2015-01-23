@@ -12,3 +12,5 @@ at twelve o'clock, EST
 
 <center style="width:700px;margin:0 auto">Our wedding will be broadcast live on the Park Street Church website. Click on the link below to celebrate with us through magic of technology: 
 [parkstreet.org/live](http://parkstreet.org/live)</center>
+
+<script src="analytics.js"></script>
