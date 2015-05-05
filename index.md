@@ -1,12 +1,12 @@
 ##<center>The marriage of</center>
 #<center>AMANDA MAY WEYERS <span>and</span> ALISTAIR GRAHAM MACDONALD</center>
 
-<center>[About Us](about-us) &nbsp; [Celebrations](celebrations)</center>
+<center>[About Us](about-us) &nbsp; [Celebrations](celebrations) &nbsp; [Gallery](gallery)</center>
 
 ###<center>Upcoming Wedding Broadcast</center>
 
 <center class="attention">  
-Saturday, February 7th, 2015  
+Saturday, February 7th, 2015
 at twelve o'clock, EST  
 </center><br>
 
