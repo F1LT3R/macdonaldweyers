@@ -27,3 +27,5 @@ Amanda's family is also prone to be a bit nomadic.  Not only was each sister bor
 Amanda spent a year living in Madrid while in school, and then three years between college and graduate school working for [Adventures in Missions](http://www.adventures.org/), working to strengthen poor communities in Mexico, Philadelphia, the Dominican Republic and Swaziland.  Between her years traveling abroad and her time spent with international students at graduate school, Amanda is just as comfortable with foreigners as Americans; friends have generally expressed a lack of surprise to hear her fiance has a green card.
 
 Besides living in foreign countries and getting her Ph.D., some of the most awesome things that Amanda has done include running a marathon in the Adirondacks, summiting a mountain in the Wind River range in beautiful Wyoming and learning sign language.
+
+<script src="analytics.js"></script>

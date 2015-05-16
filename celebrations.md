@@ -38,3 +38,5 @@ We are planning to travel to England in late December of 2015 to visit with Al's
 
 
 <sup>_*that's all you, <a name="china">China</a>._</sup>
+
+<script src="analytics.js"></script>
