@@ -1,6 +1,5 @@
 ## Gallery
 
-
 # The Wedding Ceremony
 
 [![media/ceremony/20150206-11-47-42.jpg](media/ceremony/20150206-11-47-42-tmb.jpg)](media/ceremony/20150206-11-47-42.jpg)
@@ -119,6 +118,7 @@
 [![media/honeymoon/20150209-11-08-09.jpg](media/honeymoon/20150209-11-08-09-tmb.jpg)](media/honeymoon/20150209-11-08-09.jpg)
 [![media/honeymoon/20150209-13-02-58.jpg](media/honeymoon/20150209-13-02-58-tmb.jpg)](media/honeymoon/20150209-13-02-58.jpg)
 [![media/honeymoon/20150209-14-19-44.jpg](media/honeymoon/20150209-14-19-44-tmb.jpg)](media/honeymoon/20150209-14-19-44.jpg)
+[![media/honeymoon/20150504-20-31-49.jpg](media/honeymoon/20150504-20-31-49-tmb.jpg)](media/honeymoon/20150504-20-31-49.jpg)
 [![media/honeymoon/20150209-14-26-23.jpg](media/honeymoon/20150209-14-26-23-tmb.jpg)](media/honeymoon/20150209-14-26-23.jpg)
 [![media/honeymoon/20150209-14-28-51.jpg](media/honeymoon/20150209-14-28-51-tmb.jpg)](media/honeymoon/20150209-14-28-51.jpg)
 [![media/honeymoon/20150209-14-29-23.jpg](media/honeymoon/20150209-14-29-23-tmb.jpg)](media/honeymoon/20150209-14-29-23.jpg)
@@ -164,7 +164,6 @@
 [![media/honeymoon/20150212-18-52-27.jpg](media/honeymoon/20150212-18-52-27-tmb.jpg)](media/honeymoon/20150212-18-52-27.jpg)
 [![media/honeymoon/20150212-18-53-33.jpg](media/honeymoon/20150212-18-53-33-tmb.jpg)](media/honeymoon/20150212-18-53-33.jpg)
 [![media/honeymoon/20150212-18-58-12.jpg](media/honeymoon/20150212-18-58-12-tmb.jpg)](media/honeymoon/20150212-18-58-12.jpg)
-[![media/honeymoon/20150212-21-25-34.jpg](media/honeymoon/20150212-21-25-34-tmb.jpg)](media/honeymoon/20150212-21-25-34.jpg)
 [![media/honeymoon/20150212-21-38-03.jpg](media/honeymoon/20150212-21-38-03-tmb.jpg)](media/honeymoon/20150212-21-38-03.jpg)
 [![media/honeymoon/20150212-21-38-24.jpg](media/honeymoon/20150212-21-38-24-tmb.jpg)](media/honeymoon/20150212-21-38-24.jpg)
 [![media/honeymoon/20150213-10-38-43.jpg](media/honeymoon/20150213-10-38-43-tmb.jpg)](media/honeymoon/20150213-10-38-43.jpg)
@@ -242,4 +241,5 @@
 [![media/honeymoon/20150219-10-03-06.jpg](media/honeymoon/20150219-10-03-06-tmb.jpg)](media/honeymoon/20150219-10-03-06.jpg)
 [![media/honeymoon/20150219-10-25-07.jpg](media/honeymoon/20150219-10-25-07-tmb.jpg)](media/honeymoon/20150219-10-25-07.jpg)
 [![media/honeymoon/20150504-20-31-48.jpg](media/honeymoon/20150504-20-31-48-tmb.jpg)](media/honeymoon/20150504-20-31-48.jpg)
-[![media/honeymoon/20150504-20-31-49.jpg](media/honeymoon/20150504-20-31-49-tmb.jpg)](media/honeymoon/20150504-20-31-49.jpg)
+
+<script src="analytics.js"></script>
