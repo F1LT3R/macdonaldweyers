@@ -1,18 +1,21 @@
-##<center>The marriage of</center>
-#<center>AMANDA MAY WEYERS <span>and</span> ALISTAIR GRAHAM MACDONALD</center>
+##<center>The wedding of</center>
+#<center>AMANDA MAY <span>and</span> ALISTAIR GRAHAM MACDONALD</center>
 
-<center>[About Us](about-us) &nbsp; [Celebrations](celebrations) &nbsp; [Gallery](gallery)</center>
+<center>[About Us](about-us) &nbsp; [Celebrations](celebrations) &nbsp; [Wedding Video](wedding-video) &nbsp; [Gallery](gallery)</center>
 
-###<center>The Wedding Video</center>
+### <center>The Wedding Celebration will be on:</center>
 
 <center class="attention">
-Saturday, February 7th, 2015
-at twelve o'clock, EST  
+Saturday, August 15th, 2015 <br>
+at three o'clock in the afternoon.
 </center><br>
 
-<center style="width:700px;margin:0 auto">Our wedding was be broadcast live on the Park Street Church website. Click the YoueTube link below to watch the video, or on the gallery link above to see photos from the ceremony and the honeymoon.</center>
-<br>
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/N8ksu0aw0F8" frameborder="0" allowfullscreen></iframe></center>
-<br>
+The Wedding Celebration will take place at Park Street Church. We are looking forward to celebrating with our friends and families. For directions, see [Parking and Directions](http://www.parkstreet.org/directions) on the Church website.
+
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+<div id='map'></div>
+<script src='map.js'></script>
+
 
 <script src="analytics.js"></script>
